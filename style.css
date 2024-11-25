@@ -1,0 +1,587 @@
+
+
+
+/* header */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+}
+
+.icon i{
+    font-size: 2.5em;
+   color: orange;
+   padding-top: 20px;
+}
+
+.icon h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon h1:hover{
+    color: brown;
+}
+
+.head ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+   padding-top: 5px;
+}
+
+.head ul li:hover{
+    background-color: orange;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.boton1{
+    background-color: orange;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+   margin-top: 30px;
+   margin-right: 20px;
+}
+
+#muuq{
+    font-size: 2em;
+    display: none;
+    padding-top: 30px;
+}
+
+/* bage 1 */
+
+.page1{
+    background-image: url(bugger-on-wooden-table-black-600nw-2049015059.webp) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding: 20px 40px;
+    color: white;
+}
+
+.page1 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+.page1 h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4em;
+  
+}
+
+span{
+    color: orange;
+}
+
+.page1 h1, h2:hover{
+    color: rgb(205, 185, 155);
+}
+
+.page1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton2{
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.boton3{
+    background-color: transparent;
+    border: 2px orange solid;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.boton3:hover{
+    background-color: burlywood;
+}
+
+/* page2 */
+
+.page2{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 50px;
+}
+
+.page2left img{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.page2right{
+    padding-top: 20px;
+}
+
+.page2right p{
+    width: 400px;
+
+}
+
+.boton4{
+    background-color: orange;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.boton4:hover{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* page3 */
+
+.page3box{
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 10px;
+}
+
+.page3box i{
+    font-size: 3em;
+    padding-top: 10px;
+    padding-left: 130px;
+    color: orange;   
+}
+
+.page3box h4{
+    padding-left: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page3box h4:hover{
+    color: orange;
+}
+
+.boton5{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-left: 115px;
+    
+}
+.boton5:hover{
+      color:orange;
+}
+.page3{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+
+
+/* page6 */
+
+.bug img{
+width: 200px;
+border-radius: 20px;
+}
+
+.buger{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* about us */
+
+.about{
+    background-image: url(hhh.jpg);
+    background-size: cover;
+    height: 200px;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+/* page1 */
+
+.laba{
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+    gap: 20px;
+}
+.bidix img{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.midig{
+    padding: 10px;
+}
+
+.midig h4{
+    color: grey;
+}
+
+.midig h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+.midig p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+/* page2 */
+
+.work{
+    background-color: rgb(228, 232, 237);
+    height: 70vh;
+    padding: 20px 10px;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+.our h4{
+    text-align: center;
+    color: rgb(87, 87, 141);
+}
+
+.our h3{
+    text-align: center;
+    color: rgb(87, 87, 141);
+}
+
+.boxone i{
+    padding-left: 130px;
+    color: orange;
+    font-size: 2em;
+}
+
+.boxone h3{
+    padding-left: 70px;
+    color: rgb(87, 87, 141);
+}
+
+.boxone p{
+    padding-left: 10px;
+}
+
+
+.sedex{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    gap: 10px;
+}
+
+.daaf h5{
+    text-align: center;
+    color: grey;
+    font-family: unset;
+}
+
+.daaf h3{
+    text-align: center;
+    color: rgb(41, 41, 65);
+}
+
+.daaf h3:hover{
+   color: orange;
+}
+
+.picture img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.picture h4{
+    padding-left: 90px;
+    color: rgb(141, 133, 133);
+}
+
+.picture h3{
+    padding-left: 60px;
+    color: rgb(44, 44, 84);
+}
+
+.picture h3:hover{
+    color: orange;
+}
+
+.nimanka{
+    display: flex;
+    gap: 15px;
+}
+
+/* contact us */
+
+/* Main container */
+.contact-container {
+    background-color: #fff;
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* Form container */
+.form-container {
+    width: 48%;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: orange;
+}
+
+/* Form styling */
+.form-container form input, 
+.form-container form textarea,
+.form-container form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container form textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Contact details container */
+.contact-details {
+    width: 48%;
+}
+
+.contact-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.contact-details .office {
+    margin-bottom: 20px;
+}
+
+/* last sectin */
+
+.footer {
+    background-color:orange; 
+    color: white;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .footer-left h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-left p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #e5e5e5;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ddd;
+  }
+  
+  .footer-middle, .footer-right {
+    text-align: left;
+  }
+  
+  .footer-middle h3, .footer-right h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    padding-left: 30px;
+  }
+  
+  .footer-middle ul, .footer-right ul {
+    list-style: none;
+  }
+  
+  .footer-middle ul li, .footer-right ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-middle ul li a, .footer-right ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-middle ul li a:hover, .footer-right ul li a:hover {
+    color: white;
+    background-color: black;
+    padding: 8px 15px;
+    border-radius: 10px;
+  }
+  
+  .hash{
+    background-color: #0d6c0e;
+    color: white;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1;
+  }
+  
+  
+
+
+
+@media(max-width: 500px){
+    .head ul{
+        display: none;
+    }
+
+    .boton1{
+        display: none;
+    }
+
+    #muuq{
+        display: block;
+       
+    }
+    .page1{
+        padding: 10px 15px;
+    }
+    .page1 p{
+      width: 400px;
+     
+    }
+
+    .page2{
+        display: block;
+    }
+    .page2left img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .page3{
+        display: block;
+        padding-left: 20px;
+        
+    }
+
+    .page3box{
+        margin-bottom: 15px;
+    }
+
+    .laba{
+        display: block;
+    }
+
+    .sedex{
+        display: block;
+    }
+
+    .bidix img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .work{
+        height: 100vh;
+    }
+
+    .contact-container{
+        display: block;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .nimanka{
+        display: block;
+    }
+
+    .buger{
+        display: block;
+        margin-top: 10px;
+    }
+    .footer{
+        display: block;
+        padding: 20px 20px;
+    }
+}
